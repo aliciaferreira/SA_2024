@@ -8,5 +8,6 @@ $clima=(isset($_GET['clima'])?$_GET['clima']:"No cargaste un clima");
 echo "Hola $usuario";?><br><br><?php
 echo "Tu color preferido es: $color";?><br><br><?php
 echo "Tu clima preferido es: $clima";?><br><br><?php
+echo "Saludos."
 
 ?>
