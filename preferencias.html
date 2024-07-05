@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Preferencias</title>
-  </head>
-  <body>
-    <form action="preferencias.php" method="get"><br>
+
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Preferencias</title>
+</head>
+
+<body>
+<form action="preferencias.php" method="get"><br>
         <h1>Cuáles son tus preferencias en...</h1>
         Usuario:
+
+        <input type="text" name="usuario" require><br> Color:
+        <input type="text" name="color" require><br> Tipo de musica:
+        <input type="text" name="music" require><br> 
+        Tipo de Deporte: <input type="text" name="deporte" required><br>
         <input type="text" name="usuario" require><br>
         Color:
         <input type="text" name="color" require><br>
-<<<<<<< HEAD
+
         Elemento de la tabla periódica:
         <input type="text" name="elementoDeLaTablaPeriodica" require><br>
         
-=======
         Serie de TV: 
         <input type="text" name="serie" require><br>
         Juego de Mesa:
@@ -25,8 +31,8 @@
         <input type="text" name="flor" require><br>
         Tipo de musica:
         <input type="text" name="music" require><br>
->>>>>>> 69de570926322c5763c1fe282517d7f8d92e93e2
-        <input type="submit" value=" Cargar">
-    </form>
-  </body>
+<input type="submit" value=" Cargar">
+</form>
+</body>
+
 </html>
