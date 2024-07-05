@@ -10,6 +10,12 @@ $animal=(isset($_GET['animal'])?$_GET['animal']:"No cargaste una animal preferid
 
 
 echo "Hola $usuario";
+$clima=(isset($_GET['clima'])?$_GET['clima']:"No cargaste un clima");
+?><br><br><?php
+echo "Hola $usuario";?><br><br><?php
+echo "Tu color preferido es: $color";?><br><br><?php
+echo "Tu clima preferido es: $clima";?><br><br><?php
+echo "Saludos ."
 
 echo "Tu color preferido es: $color";
 echo "Tu flor preferida es: $flor";
