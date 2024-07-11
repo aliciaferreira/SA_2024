@@ -12,18 +12,21 @@ $artista=(isset($_GET['artista'])?$_GET['artista']:"No cargaste un artista prefe
 $clima=(isset($_GET['clima'])?$_GET['clima']:"No cargaste un clima");
 $comida=(isset($_GET['comida'])?$_GET['comida']:"No cargaste tu comida preferida");
 $letra=(isset($_GET['letra'])?$_GET['letra']:"No cargaste un Estilo de letra");
+$numfav=(isset($_GET['numfav'])?$_GET['numfav']:"No cargaste tu número preferido");
+
 
 echo "Hola $usuario";?><br><br><?php
 echo "Tu color preferido es: $color";?><br><br><?php
-echo "Tu serie preferida es: $serie";
-echo "Tu flor preferida es: $flor";
-echo "Tu musica preferida es: $music";
-echo "Tu juego de mesa preferido es: $boardgame";
-echo "Tu animal preferido es: $animal";
-echo "Tu artista preferido es: $artista";
+echo "Tu serie preferida es: $serie";?><br><br><?php
+echo "Tu flor preferida es: $flor";?><br><br><?php
+echo "Tu musica preferida es: $music";?><br><br><?php
+echo "Tu juego de mesa preferido es: $boardgame";?><br><br><?php
+echo "Tu animal preferido es: $animal";?><br><br><?php
+echo "Tu artista preferido es: $artista";?><br><br><?php
 echo "Tu clima preferido es: $clima";?><br><br><?php
 echo "Tu comida preferida es: $comida";?><br><br><?php
 echo "Tu Estilo de Letra preferido es: $letra";?><br><br><?php
+echo "Tu número preferido es: $numfav";?><br><br><?php
 
 echo "Saludos $usuario";
 
