@@ -7,12 +7,15 @@ $serie=(isset($_GET['serie'])?$_GET['serie']:"No cargaste una serie de televisio
 $flor=(isset($_GET['flor'])?$_GET['flor']:"No cargaste una flor preferida");
 $music=(isset($_GET['music'])?$_GET['music']:"No cargaste un tipo de musica preferida");
 $boardgame=(isset($_GET['boardgame'])?$_GET['boardgame']:"No cargaste tu juego de mesa preferido");
-
-echo "Hola $usuario";
-echo "Tu color preferido es: $color";
-echo "Tu flor preferida es: $flor";
+$film=(isset($_GET['film'])?$_GET['film']:"No cargaste tu pelicula preferida");
+$localidad=(isset($_GET['localidad'])?$_GET['localidad']:"No cargaste la localidad");
+echo "Hola $usuario <br>";
+echo "Tu color preferido es: $color <br>";
 echo "Tu serie preferida es: $serie <br>";
-echo "Tu musica preferida es: $music";
-echo "Tu juego de mesa preferido es: $boardgame";
+echo "Tu juego de mesa preferido es: $boardgame <br>";
+echo "Tu flor preferida es: $flor <br>";
+echo "Tu musica preferida es: $music <br>";
+echo "Tu pelicula favorita es: $film <br>";
+echo "Tu localidad es: $localidad <br>"
 
 ?>
