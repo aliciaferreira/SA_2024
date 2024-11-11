@@ -3,18 +3,17 @@ require("preferencias.html");
 
 $usuario=(isset($_GET['usuario'])?$_GET['usuario']:"No cargaste un nombre de usuario");
 $color=(isset($_GET['color'])?$_GET['color']:"No cargaste un color preferido");
-$equipo=(isset($_GET['equipo'])?$_GET['equipo']:"No cargaste tu equipo de fútbol");
-$deporte=(isset($_GET['deporte'])?$_GET['deprote']:"deporte favoritol");
-$tango=(isset($_GET['tango'])?$_GET['tango']:"tango");
-$baile=(isset($_GET['baile'])?$_GET['baile']:"baile");
-$licol=(isset($_GET['lineacol'])?$_GET['lineacol']:"linea de colectivos");
-echo "Hola $usuario";
-echo "Tu color preferido es: $color";
-echo "Tu equipo de fútbol es: $equipo";
-echo "Tu deporte favorito :"$deporte;
-echo"tango ;"$tango;
-echo"Tu baile preferido "$baile;
-echo"Tu linea de colectivos"$licol;
+$musica=(isset($_GET['musica'])?$_GET['musica']:"No cargaste tu musica preferia");
+$cantante=(isset($_GET['cantante'])?$_GET['cantante']:"No cargaste un cantante preferido");
+$instrumento_musical=(isset($_GET['instrumento-musical'])?$_GET['instrumento-musical']:"No cargaste un instrumento musical");
+$banda=(isset($_GET['banda'])?$_GET['banda']:"No cargaste tu banda preferida");
+
+echo "Hola $usuario <br>";
+echo "Tu color preferido es: $color <br>";
+echo "Tu musica preferida es: $musica <br>";
+echo "Tu cantante favorito es : $cantante <br>";
+echo "Tu instrumento musical es:  $instrumento_musical <br>";
+echo "Tu banda preferida es:   $banda <br>";
 
 
 ?>
