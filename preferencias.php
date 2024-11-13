@@ -13,6 +13,7 @@ $clima=(isset($_GET['clima'])?$_GET['clima']:"No cargaste un clima");
 $comida=(isset($_GET['comida'])?$_GET['comida']:"No cargaste tu comida preferida");
 $letra=(isset($_GET['letra'])?$_GET['letra']:"No cargaste un Estilo de letra");
 $guitarrista=(isset($_GET['guitarrista'])?$_GET['guitarrista']:"No cargaste un Estilo de letra");
+$club=(isset($_GET['club'])?$_GET['club']:"No cargaste un Estilo de letra");
 
 echo "Hola $usuario";?><br><br><?php
 echo "Tu color preferido es: $color";?><br><br><?php
@@ -26,6 +27,8 @@ echo "Tu clima preferido es: $clima";?><br><br><?php
 echo "Tu comida preferida es: $comida";?><br><br><?php
 echo "Tu Estilo de Letra preferido es: $letra";?><br><br><?php
 echo "Tu guitarrista preferido es: $guitarrista";?><br><br><?php
+echo "Tu club preferido es: $club";?><br><br><?php
+
 
 echo "Saludos $usuario";
 
